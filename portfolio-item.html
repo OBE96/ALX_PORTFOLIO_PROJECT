@@ -71,11 +71,17 @@
                 </a>
             </li>
         </ul>
+        <div class="footer-text">
+            <p>Copyright &copy; <span id="copyrightYear"></span> by Odedame Bright | All Rights Reserved.</p>
+        </div>
     </footer>
 
 
     <script src="js/index.js"></script>
 
 </body>
+<script>
+    document.getElementById("copyrightYear").innerText = new Date().getFullYear();
+  </script>
 
 </html>

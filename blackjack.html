@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevJane Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Font link starts here -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font link ends here -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+   <div class="backLink">
+    <a href="index.html">
+        <img src="./icons/back-icon.svg" alt="" class="">
+        Go Back
+    </a>
+   </div>
+
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            <strong>blackjack project</strong>
+        </h1>
+        <a href="https://obe96.github.io/BlackjackProject/blackjack.html"> <p class="section__subtitle section__subtitle--intro">Click</p> </a>
+        <img src="img/blackjack.jpg" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>The Blackjack Game project is a fully functional web-based implementation of the classic card game Blackjack. This project simulates the game where players compete against a dealer, aiming to get as close to 21 points as possible without exceeding it. The game includes all the typical features, such as hitting, standing, betting, and handling various game scenarios like busts, wins, and ties.</p>
+        <img src="img/blackjack2.jpg" alt="">
+        <p>Purpose: This project was developed to demonstrate my understanding of JavaScript logic and DOM manipulation, as well as to showcase my ability to build an interactive game with a clear user interface. It simulates a real-world card game while providing a fun and engaging user experience.</p>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:Brightelo1@gmail.com" class="footer__link">Brightelo1@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://wa.me/+2348087719171">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/bright-odedame">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/Brightodedame">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/OBE96">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+		<div class="footer-text">
+            <p>Copyright &copy; <span id="copyrightYear"></span> by Odedame Bright | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+<script>
+    document.getElementById("copyrightYear").innerText = new Date().getFullYear();
+  </script>
+
+</html>
