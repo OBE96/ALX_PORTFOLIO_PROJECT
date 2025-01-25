@@ -3,7 +3,7 @@ This project represents a significant milestone in my journey at the ALX Softwar
 
 overview: The Personal Portfolio Website is a visually engaging platform designed to showcase my skills, projects, and professional journey. It serves as a central hub for potential employers and clients to learn about my work and expertise. 
 <img src="img/project overview.jpg">
-        <a href="https://obe96.github.io/ALX_PORTFOLIO_PROJECT/index.html" style="display: block; text-align: center; color: blue;"><<Click to see demo here>></a>
+        <a href="https://obe96.github.io/ALX_PORTFOLIO_PROJECT/index.html" style="display: block; text-align: center; color: blue;">Click to see demo here</a>
 
 Technologies Used:
 
